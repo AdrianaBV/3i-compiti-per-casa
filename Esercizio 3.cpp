@@ -13,8 +13,8 @@ for (int i = 0; i < Nelementi; i++){  //lettura degli elementi
 	cout<<"Inserisci il "<<i+1<<" elemento ";
 	cin>>vet[i];
 }
-cout << "Ecco l'indirizzo di partenza dell' array : " << v << endl;
-    stampa(v, Nelementi);
+cout << "Ecco l'indirizzo di partenza dell' array : " << vet << endl;
+    stampa(vet, Nelementi);
     system("PAUSE");
     return 0;
 }
