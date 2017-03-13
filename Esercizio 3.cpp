@@ -1,14 +1,11 @@
-#include <iostream.h>
-#include <stdlib.h>
-
 using namespace std;
 int dimensione(void);
 void stampa(int vet[], int dim);
 
-void main(){
+int main(){
 unsigned int i;
 int vet[11]; //dimensione dell'array
-Nelementi=dimensione()
+int Nelementi=dimensione();
 for (int i = 0; i < Nelementi; i++){  //lettura degli elementi
 	cout<<"Inserisci il "<<i+1<<" elemento ";
 	cin>>vet[i];
@@ -20,12 +17,14 @@ cout << "Ecco l'indirizzo di partenza dell' array : " << vet << endl;
 }
 
 int dimensione(){
+    int Nelementi, i;
     cout<<"Inserisci il numero di elementi: ";
-    cin>>Nelementi;
-        while (Nelementi < 0 || n > 11){
+    cin>> Nelementi;
+        if (Nelementi < 0 || i  >= 10){
                 cout<<"La dimensione dell'array deve essere compresa tra 0 e 11 ";
                 cout<<"Reinserisci la dimensione dell'array: ";
                 cin>>Nelementi;
+
 }
 }
 
